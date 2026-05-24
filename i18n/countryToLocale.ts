@@ -32,6 +32,9 @@ const COUNTRY_DEFAULT: Record<string, AppLocale> = {
   MR: 'ar',
   SO: 'ar',
 
+  // —— Tiếng Do Thái ——
+  IL: 'he',
+
   // —— Tiếng Việt ——
   VN: 'vi',
 

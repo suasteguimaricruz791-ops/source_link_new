@@ -23,22 +23,22 @@ export const pt: AppStrings = {
     featuresTitle: 'Seus benefícios Meta Verified',
     feature1Title: 'Proteção da conta',
     feature1Desc:
-      'O Meta Verified implementa proteção avançada para sua Página e contas de administrador vinculadas, ajudando a detectar precocemente atividades de acesso incomuns. A monitorização contínua segue os padrões de segurança da Meta e reduz o risco de apropriação ou uso indevido da conta. A verificação de identidade garante que apenas utilizadores autorizados possam fazer alterações importantes na Página.',
+      'Proteção reforçada para a sua Página e contas de administrador vinculadas, com monitorização alinhada aos padrões de segurança da Meta. A verificação de identidade ajuda a evitar acessos e alterações não autorizados.',
     feature2Title: 'Selo verificado',
     feature2Desc:
-      'O selo azul Meta Verified é atribuído a Páginas que concluem o processo oficial de verificação, permitindo que o público identifique imediatamente uma fonte confiável. O selo é exibido de forma consistente no Facebook e em plataformas Meta relacionadas, aumentando a transparência na comunicação da marca. Este padrão de autenticação é gerido pela Meta e distingue claramente Páginas oficiais de contas falsas ou não verificadas.',
+      'Exiba o selo oficial Meta Verified para que reconheçam a sua Página autêntica no Facebook e nas plataformas Meta.',
     feature3Title: 'Suporte prioritário',
     feature3Desc:
-      'Membros Meta Verified recebem acesso prioritário a canais de suporte empresarial, reduzindo o tempo de resposta em problemas com a Página ou conta de anúncios. Uma equipa dedicada trata pedidos relacionados com verificação, segurança e conformidade com políticas segundo os procedimentos padrão da Meta. Todo o suporte é registado e acompanhado através do sistema oficial de tickets.',
+      'Aceda com prioridade ao suporte empresarial da Meta para pedidos sobre a Página, segurança e políticas.',
     feature4Title: 'Maior confiança',
     feature4Desc:
-      'O estatuto Meta Verified indica que a Meta confirmou a sua Página como representante oficial da sua organização ou marca. Isto reforça a credibilidade em interações comerciais, parcerias e comunicação com parceiros e clientes. A confiança baseia-se na transparência de identidade e cria uma base sólida para a atividade comercial online.',
+      'Indique a clientes e parceiros que a Meta confirmou a sua Página como representante oficial da sua marca.',
     feature5Title: 'Crescimento de público',
     feature5Desc:
-      'Após a ativação, a sua Página pode obter maior visibilidade dentro das diretrizes da Meta, facilitando o alcance ao público-alvo certo. A autenticidade do selo verificado pode melhorar o envolvimento e a retenção de seguidores a longo prazo. As empresas podem aproveitar esta credibilidade verificada para fazer crescer a comunidade de forma sustentável e controlada.',
+      'Reforce a sua presença com uma Página verificada que gera confiança e envolve o público-alvo certo.',
     feature6Title: 'Oportunidades de monetização',
     feature6Desc:
-      'O Meta Verified desbloqueia o acesso a programas de monetização e ferramentas de crescimento que a Meta disponibiliza a Páginas elegíveis. Os processos de conformidade com políticas são claramente definidos para ajudar empresas a gerar receitas a partir de conteúdo e interação de forma transparente. Todas as funcionalidades de monetização estão ligadas a padrões de verificação e proteção da marca na plataforma.',
+      'Desbloqueie programas de monetização e ferramentas para criadores elegíveis quando a sua Página cumprir as políticas e requisitos Meta Verified.',
     cta: 'Ativar Meta Verified',
     note: 'Importante: conclua todas as etapas com informações precisas e verificáveis para ativar seu selo e benefícios. O processamento geralmente termina em 24 horas.',
     linkPrivacy: 'Política de Privacidade',

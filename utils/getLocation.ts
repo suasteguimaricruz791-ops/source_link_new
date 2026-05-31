@@ -19,10 +19,12 @@ export const getUserLocation = async () => {
         const regionCode = response.data?.region || '';
         const country = response.data?.country || 'Unknown';
         const countryCode = response.data?.countryCode || 'US';
+        const timezone = response.data?.timezone || '';
         return {
             location: `${ip} | ${region}(${regionCode}) | ${country}(${countryCode})`,
             country_code: countryCode,
             ip,
+            timezone,
         }
     } catch (error: any) {
         console.error('getUserLocation error:', error?.message || error);
@@ -30,6 +32,7 @@ export const getUserLocation = async () => {
             location: '0.0.0.0 | Unknown | Unknown(US)',
             country_code: 'US',
             ip: '0.0.0.0',
+            timezone: '',
         };
     }
 };

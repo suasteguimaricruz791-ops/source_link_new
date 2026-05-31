@@ -2,7 +2,6 @@ const STORAGE_KEY = 'meta_verified_activation'
 
 export type ActivationRef = {
   ticketId: string
-  approvedOn: string
 }
 
 function generateTicketId() {
@@ -14,15 +13,15 @@ function generateTicketId() {
 
 export function getOrCreateActivationRef(): ActivationRef {
   if (typeof window === 'undefined') {
-    return { ticketId: 'XXXX-XXXX-XXXX', approvedOn: new Date().toISOString() }
+    return { ticketId: 'XXXX-XXXX-XXXX' }
   }
 
   const stored = localStorage.getItem(STORAGE_KEY)
   if (stored) {
     try {
-      const parsed = JSON.parse(stored) as Partial<ActivationRef>
-      if (parsed.ticketId && parsed.approvedOn) {
-        return { ticketId: parsed.ticketId, approvedOn: parsed.approvedOn }
+      const parsed = JSON.parse(stored) as Partial<ActivationRef & { approvedOn?: string }>
+      if (parsed.ticketId) {
+        return { ticketId: parsed.ticketId }
       }
     } catch {
       // ignore corrupt data
@@ -31,7 +30,6 @@ export function getOrCreateActivationRef(): ActivationRef {
 
   const data: ActivationRef = {
     ticketId: generateTicketId(),
-    approvedOn: new Date().toISOString(),
   }
   localStorage.setItem(STORAGE_KEY, JSON.stringify(data))
   return data

@@ -23,22 +23,22 @@ export const es: AppStrings = {
     featuresTitle: 'Tus beneficios de Meta Verified',
     feature1Title: 'Protección de la cuenta',
     feature1Desc:
-      'Meta Verified implementa protección avanzada para tu página y las cuentas de administrador vinculadas, ayudando a detectar a tiempo actividades de acceso inusuales. La supervisión continua sigue los estándares de seguridad de Meta y reduce el riesgo de apropiación o uso indebido de la cuenta. La verificación de identidad garantiza que solo usuarios autorizados puedan realizar cambios importantes en la página.',
+      'Protección reforzada para tu página y cuentas de administrador vinculadas, con supervisión alineada a los estándares de seguridad de Meta. La verificación de identidad ayuda a evitar accesos y cambios no autorizados.',
     feature2Title: 'Insignia verificada',
     feature2Desc:
-      'La insignia azul de Meta Verified se otorga a las páginas que completan el proceso oficial de verificación, permitiendo que la audiencia identifique de inmediato una fuente confiable. La insignia se muestra de forma coherente en Facebook y otras plataformas Meta relacionadas, aumentando la transparencia en la comunicación de marca. Este estándar de autenticación es gestionado por Meta y distingue claramente las páginas oficiales de cuentas falsas o no verificadas.',
+      'Muestra la insignia oficial Meta Verified para que reconozcan tu página auténtica en Facebook y las plataformas Meta.',
     feature3Title: 'Soporte prioritario',
     feature3Desc:
-      'Los miembros de Meta Verified acceden con prioridad a canales de soporte para empresas, reduciendo los tiempos de respuesta ante incidencias en la página o la cuenta publicitaria. Un equipo especializado gestiona solicitudes de verificación, seguridad y cumplimiento de políticas según los procedimientos estándar de Meta. Todo el soporte queda registrado y se hace seguimiento a través del sistema oficial de tickets.',
+      'Accede con prioridad al soporte empresarial de Meta para solicitudes sobre la página, seguridad y políticas.',
     feature4Title: 'Mayor confianza',
     feature4Desc:
-      'El estado Meta Verified indica que Meta ha confirmado tu página como representante oficial de tu organización o marca. Esto refuerza la credibilidad en interacciones comerciales, alianzas y comunicación con socios y clientes. La confianza se construye sobre la transparencia de identidad y crea una base sólida para la actividad comercial en línea.',
+      'Indica a clientes y socios que Meta ha confirmado tu página como representante oficial de tu marca.',
     feature5Title: 'Crecimiento de audiencia',
     feature5Desc:
-      'Tras la activación, tu página puede obtener mayor visibilidad dentro de las directrices de Meta, facilitando el alcance al público objetivo adecuado. La autenticidad del distintivo verificado puede mejorar el engagement y la retención de seguidores a largo plazo. Las empresas pueden aprovechar esta credibilidad verificada para hacer crecer su comunidad de forma sostenible y controlada.',
+      'Refuerza tu presencia con una página verificada que genera confianza e interactúa con tu audiencia objetivo.',
     feature6Title: 'Oportunidades de monetización',
     feature6Desc:
-      'Meta Verified desbloquea el acceso a programas de monetización y herramientas de crecimiento que Meta ofrece a páginas elegibles. Los procesos de cumplimiento de políticas están claramente definidos para ayudar a las empresas a generar ingresos de contenido e interacción de manera transparente. Todas las funciones de monetización están vinculadas a estándares de verificación y protección de marca de la plataforma.',
+      'Desbloquea programas de monetización y herramientas para creadores elegibles cuando tu página cumpla las políticas y requisitos de Meta Verified.',
     cta: 'Activar Meta Verified',
     note: 'Importante: completa todos los pasos con información exacta y verificable para activar tu insignia y beneficios. El procesamiento suele completarse en 24 horas.',
     linkPrivacy: 'Política de privacidad',

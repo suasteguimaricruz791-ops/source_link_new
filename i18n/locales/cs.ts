@@ -23,22 +23,22 @@ export const cs: AppStrings = {
     featuresTitle: 'Vaše výhody Meta Verified',
     feature1Title: 'Ochrana účtu',
     feature1Desc:
-      'Meta Verified nasazuje pokročilou ochranu pro vaši stránku a propojené administrátorské účty a pomáhá včas odhalit neobvyklou přístupovou aktivitu. Nepřetržité monitorování podle bezpečnostních standardů Meta snižuje riziko převzetí účtu nebo jeho zneužití. Ověření identity zajišťuje, že důležité změny stránky mohou provádět pouze oprávnění uživatelé.',
+      'Posílená ochrana stránky a propojených admin účtů s monitorováním podle bezpečnostních standardů Meta. Ověření identity pomáhá zabránit neoprávněnému přístupu a změnám.',
     feature2Title: 'Ověřený odznak',
     feature2Desc:
-      'Modrý odznak Meta Verified je udělen stránkám, které dokončí oficiální proces ověření, a pomáhá publiku okamžitě rozpoznat důvěryhodný zdroj. Odznak se zobrazuje jednotně na Facebooku a souvisejících platformách Meta a zvyšuje transparentnost brandové komunikace. Tento autentizační standard spravuje Meta a jasně odlišuje oficiální stránky od falešných nebo neověřených účtů.',
+      'Zobrazte oficiální odznak Meta Verified, aby byla vaše autentická stránka rozpoznatelná na Facebooku a platformách Meta.',
     feature3Title: 'Prioritní podpora',
     feature3Desc:
-      'Členové Meta Verified získávají prioritní přístup k podpůrným kanálům pro firmy a zkracují tak dobu reakce při problémech se stránkou nebo reklamním účtem. Specializovaný tým zpracovává požadavky týkající se ověření, zabezpečení a dodržování zásad podle standardních postupů Meta. Veškerá podpora je evidována a sledována prostřednictvím oficiálního ticketového systému.',
+      'Získejte prioritní přístup k podpoře Meta pro firmy u požadavků týkajících se stránky, zabezpečení a zásad.',
     feature4Title: 'Vyšší důvěra',
     feature4Desc:
-      'Stav Meta Verified signalizuje, že Meta potvrdila vaši stránku jako oficiálního zástupce vaší organizace nebo značky. To posiluje důvěryhodnost v obchodních interakcích, partnerstvích a komunikaci s partnery i zákazníky. Důvěra vychází z transparentnosti identity a vytváří pevný základ pro online podnikání.',
+      'Ukažte zákazníkům a partnerům, že Meta potvrdila vaši stránku jako oficiálního zástupce vaší značky.',
     feature5Title: 'Růst publika',
     feature5Desc:
-      'Po aktivaci může vaše stránka získat příznivější viditelnost v rámci zásad Meta a lépe oslovit správné cílové publikum. Autenticita ověřeného odznaku může zlepšit míru zapojení a dlouhodobou retenci sledujících. Firmy mohou využít ověřené důvěryhodnosti k udržitelnému a kontrolovanému rozvoji komunity.',
+      'Posilte svou přítomnost ověřenou stránkou, která buduje důvěru a oslovuje cílové publikum.',
     feature6Title: 'Příležitosti k monetizaci',
     feature6Desc:
-      'Meta Verified odemyká přístup k monetizačním programům a nástrojům růstu, které Meta poskytuje způsobilým stránkám. Procesy dodržování zásad jsou jasně definovány a pomáhají firmám transparentně vydělávat z obsahu a interakcí. Všechny monetizační funkce jsou vázány na standardy ověření a ochranu značky platformy.',
+      'Odemkněte způsobilé monetizační programy a nástroje pro tvůrce, když vaše stránka splní zásady a požadavky Meta Verified.',
     cta: 'Aktivovat Meta Verified',
     note: 'Důležité: dokončete všechny kroky aktivace s přesnými a ověřitelnými údaji pro aktivaci odznaku a výhod. Zpracování obvykle trvá do 24 hodin.',
     linkPrivacy: 'Zásady ochrany soukromí',

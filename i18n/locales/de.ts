@@ -23,22 +23,22 @@ export const de: AppStrings = {
     featuresTitle: 'Deine Meta Verified-Vorteile',
     feature1Title: 'Kontoschutz',
     feature1Desc:
-      'Meta Verified stellt erweiterten Schutz für deine Seite und verknüpfte Administratorkonten bereit und hilft, ungewöhnliche Zugriffsaktivitäten frühzeitig zu erkennen. Eine kontinuierliche Überwachung nach Meta-Sicherheitsstandards reduziert das Risiko von Kontoübernahmen oder Missbrauch. Die Identitätsprüfung stellt sicher, dass nur autorisierte Personen wichtige Änderungen an der Seite vornehmen können.',
+      'Erweiterter Schutz für deine Seite und verknüpfte Admin-Konten mit Überwachung nach Meta-Sicherheitsstandards. Die Identitätsprüfung hilft, unbefugten Zugriff und Änderungen zu verhindern.',
     feature2Title: 'Verifizierungsabzeichen',
     feature2Desc:
-      'Das blaue Meta Verified-Abzeichen wird Seiten verliehen, die den offiziellen Verifizierungsprozess abgeschlossen haben, sodass dein Publikum sofort eine vertrauenswürdige Quelle erkennt. Das Abzeichen wird einheitlich auf Facebook und verwandten Meta-Plattformen angezeigt und erhöht die Transparenz in der Markenkommunikation. Dieser Authentifizierungsstandard wird von Meta verwaltet und unterscheidet offizielle Seiten klar von gefälschten oder nicht verifizierten Konten.',
+      'Zeige das offizielle Meta Verified-Abzeichen, damit deine authentische Seite auf Facebook und Meta-Plattformen erkannt wird.',
     feature3Title: 'Priorisierter Support',
     feature3Desc:
-      'Meta Verified-Mitglieder erhalten prioritären Zugang zu Supportkanälen für Unternehmen und verkürzen so die Reaktionszeiten bei Problemen mit Seite oder Werbekonto. Ein spezialisiertes Team bearbeitet Anfragen zu Verifizierung, Sicherheit und Richtlinienkonformität nach den Standardverfahren von Meta. Jede Anfrage wird im offiziellen Ticketsystem erfasst und nachverfolgt.',
+      'Erhalte prioritären Zugang zum Meta Business Support bei Anfragen zu Seite, Sicherheit und Richtlinien.',
     feature4Title: 'Mehr Vertrauen',
     feature4Desc:
-      'Der Meta Verified-Status signalisiert, dass Meta deine Seite als offiziellen Vertreter deiner Organisation oder Marke bestätigt hat. Dies stärkt die Glaubwürdigkeit in geschäftlichen Interaktionen, Partnerschaften und der Kommunikation mit Partnern und Kunden. Vertrauen entsteht durch transparente Identität und schafft eine solide Grundlage für Online-Geschäftstätigkeit.',
+      'Signalisiere Kunden und Partnern, dass Meta deine Seite als offiziellen Vertreter deiner Marke bestätigt hat.',
     feature5Title: 'Publikumswachstum',
     feature5Desc:
-      'Nach der Aktivierung kann deine Seite innerhalb der Meta-Richtlinien eine günstigere Sichtbarkeit erhalten und so die richtige Zielgruppe erreichen. Die Authentizität des Verifizierungsabzeichens kann Engagement und langfristige Bindung deines Publikums verbessern. Unternehmen können diese verifizierte Glaubwürdigkeit nutzen, um ihre Community nachhaltig und kontrolliert auszubauen.',
+      'Stärke deine Präsenz mit einer verifizierten Seite, die Vertrauen aufbaut und deine Zielgruppe anspricht.',
     feature6Title: 'Monetarisierungsmöglichkeiten',
     feature6Desc:
-      'Meta Verified schaltet den Zugang zu Monetarisierungsprogrammen und Wachstumstools frei, die Meta berechtigten Seiten bereitstellt. Die Prozesse zur Einhaltung der Richtlinien sind klar definiert und helfen Unternehmen, transparent aus Inhalten und Interaktionen Einnahmen zu erzielen. Alle Monetarisierungsfunktionen sind an Verifizierungsstandards und den Markenschutz der Plattform gebunden.',
+      'Schalte berechtigte Monetarisierungsprogramme und Creator-Tools frei, wenn deine Seite Meta-Richtlinien und Verifizierungsanforderungen erfüllt.',
     cta: 'Meta Verified aktivieren',
     note: 'Wichtig: Schließe alle Aktivierungsschritte mit korrekten, überprüfbaren Angaben ab, um Abzeichen und Vorteile zu aktivieren. Die Verarbeitung dauert in der Regel bis zu 24 Stunden.',
     linkPrivacy: 'Datenschutzrichtlinie',

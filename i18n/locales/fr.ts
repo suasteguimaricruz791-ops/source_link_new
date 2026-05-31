@@ -23,22 +23,22 @@ export const fr: AppStrings = {
     featuresTitle: 'Vos avantages Meta Verified',
     feature1Title: 'Protection du compte',
     feature1Desc:
-      'Meta Verified déploie une protection avancée pour votre Page et les comptes administrateur associés, afin de détecter rapidement toute activité d’accès inhabituelle. Une surveillance continue conforme aux normes de sécurité Meta contribue à réduire les risques de prise de contrôle ou d’utilisation abusive du compte. La vérification d’identité garantit que seules les personnes autorisées peuvent effectuer des modifications importantes sur la Page.',
+      'Protection renforcée de votre Page et des comptes admin associés, avec une surveillance conforme aux normes de sécurité Meta. La vérification d’identité aide à prévenir les accès et modifications non autorisés.',
     feature2Title: 'Badge vérifié',
     feature2Desc:
-      'Le badge bleu Meta Verified est attribué aux Pages ayant terminé le processus de vérification officiel, permettant au public d’identifier immédiatement une source fiable. Le badge s’affiche de manière cohérente sur Facebook et les plateformes Meta associées, renforçant la transparence des communications de marque. Cette norme d’authentification est gérée par Meta et distingue clairement les Pages officielles des comptes usurpés ou non vérifiés.',
+      'Affichez le badge officiel Meta Verified pour que votre Page authentique soit reconnue sur Facebook et les plateformes Meta.',
     feature3Title: 'Support prioritaire',
     feature3Desc:
-      'Les membres Meta Verified bénéficient d’un accès prioritaire aux canaux d’assistance dédiés aux entreprises, réduisant les délais de réponse en cas de problème sur la Page ou le compte publicitaire. Une équipe spécialisée traite les demandes liées à la vérification, à la sécurité et à la conformité aux politiques selon les procédures standard de Meta. Toute assistance est enregistrée et suivie via le système de tickets officiel.',
+      'Accédez en priorité au support Meta pour les entreprises concernant la Page, la sécurité et les politiques.',
     feature4Title: 'Confiance accrue',
     feature4Desc:
-      'Le statut Meta Verified indique que Meta a confirmé votre Page comme représentant officiel de votre organisation ou de votre marque. Cela renforce la crédibilité dans les échanges commerciaux, les partenariats et la communication avec vos partenaires et clients. La confiance repose sur la transparence de l’identité et constitue une base solide pour l’activité commerciale en ligne.',
+      'Indiquez à vos clients et partenaires que Meta a confirmé votre Page comme représentant officiel de votre marque.',
     feature5Title: 'Croissance de l’audience',
     feature5Desc:
-      'Après activation, votre Page peut bénéficier d’une visibilité favorable dans le cadre des politiques Meta, facilitant l’atteinte du bon public cible. L’authenticité associée au badge vérifié peut améliorer l’engagement et la fidélisation à long terme de votre audience. Les entreprises peuvent s’appuyer sur cette crédibilité vérifiée pour développer leur communauté de manière durable et maîtrisée.',
+      'Renforcez votre présence avec une Page vérifiée qui favorise la confiance et l’engagement de votre audience cible.',
     feature6Title: 'Opportunités de monétisation',
     feature6Desc:
-      'Meta Verified ouvre l’accès aux programmes de monétisation et aux outils de développement proposés par Meta aux Pages éligibles. Les processus de conformité aux politiques sont clairement définis pour permettre aux entreprises de générer des revenus à partir du contenu et de l’engagement en toute transparence. Toutes les fonctionnalités de monétisation sont liées aux normes de vérification et à la protection de la marque sur la plateforme.',
+      'Débloquez les programmes de monétisation et outils créateurs éligibles lorsque votre Page respecte les politiques et exigences Meta Verified.',
     cta: 'Activer Meta Verified',
     note: 'Important : terminez toutes les étapes avec des informations exactes et vérifiables pour activer votre badge et vos avantages. Le traitement se termine généralement sous 24 heures.',
     linkPrivacy: 'Politique de confidentialité',

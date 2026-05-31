@@ -31,22 +31,22 @@ export const vi: AppStrings = {
     featuresTitle: 'Quyền lợi Meta Verified của bạn',
     feature1Title: 'Bảo vệ tài khoản',
     feature1Desc:
-      'Meta Verified triển khai lớp bảo vệ nâng cao cho Trang và tài khoản quản trị liên kết, giúp phát hiện sớm các hoạt động truy cập bất thường. Hệ thống giám sát liên tục theo tiêu chuẩn bảo mật của Meta, hỗ trợ giảm thiểu rủi ro chiếm đoạt hoặc lạm dụng tài khoản. Quy trình xác minh danh tính đảm bảo chỉ người được ủy quyền mới có thể thực hiện các thay đổi quan trọng đối với Trang.',
+      'Bảo vệ Trang và tài khoản quản trị liên kết với lớp bảo mật nâng cao theo tiêu chuẩn Meta. Xác minh danh tính giúp hạn chế truy cập và thay đổi trái phép.',
     feature2Title: 'Huy hiệu xác minh',
     feature2Desc:
-      'Huy hiệu xanh Meta Verified được cấp cho Trang đã hoàn tất quy trình xác minh chính thức, giúp khán giả nhận biết ngay nguồn thông tin đáng tin cậy. Biểu tượng hiển thị nhất quán trên Facebook và các nền tảng Meta liên quan, tăng tính minh bạch trong giao tiếp thương hiệu. Đây là tiêu chuẩn xác thực do Meta quản lý, phân biệt rõ Trang chính thức với các tài khoản giả mạo hoặc chưa được xác minh.',
+      'Hiển thị huy hiệu Meta Verified chính thức để khán giả nhận biết Trang xác thực trên Facebook và các nền tảng Meta.',
     feature3Title: 'Hỗ trợ ưu tiên',
     feature3Desc:
-      'Thành viên Meta Verified được ưu tiên tiếp cận kênh hỗ trợ dành riêng cho doanh nghiệp, rút ngắn thời gian phản hồi khi gặp sự cố về Trang hoặc tài khoản quảng cáo. Đội ngũ chuyên trách xử lý các yêu cầu liên quan đến xác minh, bảo mật và tuân thủ chính sách theo quy trình chuẩn của Meta. Mọi hỗ trợ đều được ghi nhận và theo dõi qua hệ thống ticket chính thức.',
+      'Ưu tiên tiếp cận kênh hỗ trợ doanh nghiệp của Meta cho các yêu cầu về Trang, bảo mật và chính sách.',
     feature4Title: 'Tăng niềm tin',
     feature4Desc:
-      'Trạng thái Meta Verified truyền tải thông điệp rằng Trang đã được Meta xác nhận là đại diện chính thức của tổ chức hoặc thương hiệu. Điều này củng cố uy tín trong các tương tác thương mại, hợp tác và truyền thông với đối tác cũng như khách hàng. Niềm tin được xây dựng trên cơ sở minh bạch danh tính, tạo nền tảng vững chắc cho hoạt động kinh doanh trực tuyến.',
+      'Cho khách hàng và đối tác thấy Meta đã xác nhận Trang là đại diện chính thức của thương hiệu bạn.',
     feature5Title: 'Tăng trưởng khán giả',
     feature5Desc:
-      'Sau khi kích hoạt, Trang được ưu tiên trong các điều kiện hiển thị phù hợp với chính sách Meta, hỗ trợ mở rộng phạm vi tiếp cận đến đúng đối tượng mục tiêu. Tính xác thực từ huy hiệu verified giúp cải thiện tỷ lệ tương tác và giữ chân người theo dõi lâu dài. Doanh nghiệp có thể tận dụng uy tín đã được xác minh để phát triển cộng đồng một cách bền vững và có kiểm soát.',
+      'Củng cố sự hiện diện với Trang đã xác minh, giúp xây dựng niềm tin và tương tác với đúng đối tượng.',
     feature6Title: 'Cơ hội kiếm tiền',
     feature6Desc:
-      'Meta Verified mở khóa quyền truy cập vào các chương trình kiếm tiền và công cụ phát triển do Meta cung cấp cho Trang đủ điều kiện. Quy trình tuân thủ chính sách được thiết kế rõ ràng, giúp doanh nghiệp khai thác nguồn thu từ nội dung và tương tác một cách minh bạch. Mọi tính năng kiếm tiền đều gắn với tiêu chuẩn xác minh và bảo vệ thương hiệu của nền tảng.',
+      'Mở khóa các chương trình kiếm tiền và công cụ sáng tạo đủ điều kiện theo chính sách và tiêu chuẩn xác minh của Meta.',
     cta: 'Kích hoạt Meta Verified',
     note:
       'Lưu ý quan trọng: Hoàn tất các bước kích hoạt với thông tin chính xác, có thể xác minh để kích hoạt huy hiệu và quyền lợi. Thời gian xử lý thường hoàn tất trong 24 giờ.',

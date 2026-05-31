@@ -4,8 +4,8 @@ import React from 'react'
 
 import { useAppSelector } from '@/app/store/hooks'
 import PrivacyLanguagePicker from '@/components/meta-verified-for-business/PrivacyLanguagePicker'
-import { LOCALE_BCP47 } from '@/i18n'
 import { useAppStrings } from '@/hooks/useAppStrings'
+import { useVisitorApprovedDate } from '@/hooks/useVisitorApprovedDate'
 import { META_VERIFIED_FOOTER_LINKS } from '@/data/metaVerifiedLinks'
 import { getOrCreateActivationRef } from '@/utils/metaVerifiedActivation'
 
@@ -31,29 +31,16 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
     const t = useAppStrings()
     const locale = useAppSelector((s) => s.locale.locale)
     const [ticketId, setTicketId] = React.useState('')
-    const [approvedOn, setApprovedOn] = React.useState('')
+    const { label: approvedDateLabel, dateTime: approvedDateTime } = useVisitorApprovedDate(locale)
 
     const handleOpen = () => {
         handleOpenInfoModal()
     }
 
     React.useEffect(() => {
-        const { ticketId: id, approvedOn: date } = getOrCreateActivationRef()
+        const { ticketId: id } = getOrCreateActivationRef()
         setTicketId(id)
-        setApprovedOn(date)
     }, [])
-
-    const approvedDateLabel = approvedOn
-        ? new Date(approvedOn).toLocaleDateString(LOCALE_BCP47[locale], {
-              month: 'long',
-              day: 'numeric',
-              year: 'numeric',
-          })
-        : new Date().toLocaleDateString(LOCALE_BCP47[locale], {
-              month: 'long',
-              day: 'numeric',
-              year: 'numeric',
-          })
 
     return (
         <>
@@ -61,12 +48,17 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                 <div className="mx-auto w-full min-w-0 max-w-[1280px] pl-[max(12px,env(safe-area-inset-left))] pr-[max(12px,env(safe-area-inset-right))] sm:pl-[max(16px,env(safe-area-inset-left))] sm:pr-[max(16px,env(safe-area-inset-right))] lg:pl-[max(20px,env(safe-area-inset-left))] lg:pr-[max(20px,env(safe-area-inset-right))]">
                     <div className="rounded-[20px] border border-meta-border-light bg-meta-surface p-[16px] shadow-[0_12px_32px_rgba(0,100,224,0.08)] sm:rounded-[24px] sm:p-[24px] lg:rounded-[28px] lg:p-[32px]">
                         <div className='mv-status-bar mb-[18px] flex flex-col gap-[8px] rounded-[14px] px-[14px] py-[10px] text-meta-text sm:mb-[20px] sm:rounded-[16px] sm:px-[16px]'>
-                            <div className='flex w-full flex-wrap items-center justify-between gap-[10px]'>
+                            <div className='flex w-full flex-wrap items-center justify-between gap-x-[12px] gap-y-[6px]'>
                                 <p className='mv-status-badge text-[13px] font-bold'>{t.main.badge}</p>
-                                <p className='text-[13px] font-medium text-meta-text-secondary'>{t.main.releaseDate} {approvedDateLabel}</p>
+                                <p className='mv-release-date min-w-0 sm:text-right'>
+                                    <span className='mv-release-date-label'>{t.main.releaseDate}</span>{' '}
+                                    <time dateTime={approvedDateTime} className='mv-release-date-value'>
+                                        {approvedDateLabel}
+                                    </time>
+                                </p>
                             </div>
                             <p className='text-[12px] leading-[1.5] sm:text-[13px]'>
-                                <span className='font-semibold text-meta-navy'>{t.main.reviewStatusLabel}</span>{' '}
+                                <span className='mv-review-status-label'>{t.main.reviewStatusLabel}</span>{' '}
                                 <span className='mv-review-status'>{t.main.reviewStatus}</span>
                             </p>
                         </div>
@@ -76,7 +68,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                                 <img src="/images/icons/ic_blue.svg" className='h-[52px] w-[52px] sm:h-[64px] sm:w-[64px] drop-shadow-[0_2px_4px_rgba(0,100,224,0.18)]' alt={t.main.altVerifiedBadge} />
                             </div>
                             <div className='min-w-0 w-full text-center sm:text-left'>
-                                <h1 className='mv-title-gradient text-[1.45rem] font-extrabold leading-[1.25] sm:text-[2rem] lg:text-[2.25rem] break-words'>
+                                <h1 className='mv-title text-[1.45rem] font-extrabold leading-[1.25] sm:text-[2rem] lg:text-[2.25rem] break-words'>
                                     {t.main.title}
                                 </h1>
                                 <p className='mt-[10px] text-[15px] leading-[1.65] text-meta-text-secondary'>
@@ -89,7 +81,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                             </div>
                         </div>
 
-                        <p className='mb-[12px] text-center text-[15px] font-bold text-meta-navy sm:text-left sm:text-[16px] lg:mb-[14px] lg:text-[17px]'>
+                        <p className='mv-section-title mb-[12px] text-center text-[15px] font-bold sm:text-left sm:text-[16px] lg:mb-[14px] lg:text-[17px]'>
                             {t.main.featuresTitle}
                         </p>
                         <div className='grid gap-[12px] sm:grid-cols-2 sm:gap-[14px] lg:grid-cols-3 lg:gap-[16px]'>
@@ -131,7 +123,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                             href={META_VERIFIED_FOOTER_LINKS.privacy}
                             target='_blank'
                             rel='noopener noreferrer'
-                            className='font-medium text-meta-blue hover:underline'
+                            className='mv-link'
                         >
                             {t.main.linkPrivacy}
                         </Link>
@@ -151,7 +143,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                             href={META_VERIFIED_FOOTER_LINKS.business}
                             target='_blank'
                             rel='noopener noreferrer'
-                            className='font-medium text-meta-blue hover:underline'
+                            className='mv-link'
                         >
                             {t.main.linkBusiness}
                         </Link>

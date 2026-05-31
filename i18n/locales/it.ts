@@ -23,22 +23,22 @@ export const it: AppStrings = {
     featuresTitle: 'I tuoi vantaggi Meta Verified',
     feature1Title: 'Protezione account',
     feature1Desc:
-      'Meta Verified implementa una protezione avanzata per la tua Pagina e gli account amministratore collegati, aiutando a rilevare tempestivamente attività di accesso insolite. Il monitoraggio continuo segue gli standard di sicurezza Meta e riduce il rischio di appropriazione o uso improprio dell\'account. La verifica dell\'identità garantisce che solo utenti autorizzati possano apportare modifiche importanti alla Pagina.',
+      'Protezione rafforzata per la Pagina e gli account admin collegati, con monitoraggio allineato agli standard di sicurezza Meta. La verifica dell\'identità aiuta a prevenire accessi e modifiche non autorizzati.',
     feature2Title: 'Badge verificato',
     feature2Desc:
-      'Il badge blu Meta Verified viene assegnato alle Pagine che completano il processo ufficiale di verifica, consentendo al pubblico di riconoscere immediatamente una fonte affidabile. Il badge viene visualizzato in modo coerente su Facebook e sulle piattaforme Meta correlate, aumentando la trasparenza nella comunicazione del brand. Questo standard di autenticazione è gestito da Meta e distingue chiaramente le Pagine ufficiali da account falsi o non verificati.',
+      'Mostra il badge ufficiale Meta Verified così la tua Pagina autentica è riconoscibile su Facebook e sulle piattaforme Meta.',
     feature3Title: 'Supporto prioritario',
     feature3Desc:
-      'I membri Meta Verified accedono con priorità ai canali di assistenza dedicati alle aziende, riducendo i tempi di risposta in caso di problemi con la Pagina o l\'account pubblicitario. Un team specializzato gestisce le richieste relative a verifica, sicurezza e conformità alle policy secondo le procedure standard di Meta. Ogni assistenza viene registrata e monitorata tramite il sistema ufficiale di ticket.',
+      'Accedi con priorità al supporto Meta per le aziende per richieste su Pagina, sicurezza e policy.',
     feature4Title: 'Maggiore fiducia',
     feature4Desc:
-      'Lo stato Meta Verified indica che Meta ha confermato la tua Pagina come rappresentante ufficiale della tua organizzazione o del tuo brand. Questo rafforza la credibilità nelle interazioni commerciali, nelle partnership e nella comunicazione con partner e clienti. La fiducia si basa sulla trasparenza dell\'identità e crea una base solida per l\'attività commerciale online.',
+      'Comunica a clienti e partner che Meta ha confermato la tua Pagina come rappresentante ufficiale del tuo brand.',
     feature5Title: 'Crescita del pubblico',
     feature5Desc:
-      'Dopo l\'attivazione, la tua Pagina può ottenere maggiore visibilità entro le linee guida Meta, facilitando il raggiungimento del pubblico target corretto. L\'autenticità del badge verificato può migliorare l\'engagement e la fidelizzazione a lungo termine del pubblico. Le aziende possono sfruttare questa credibilità verificata per far crescere la community in modo sostenibile e controllato.',
+      'Rafforza la presenza con una Pagina verificata che costruisce fiducia e coinvolge il pubblico target.',
     feature6Title: 'Opportunità di monetizzazione',
     feature6Desc:
-      'Meta Verified sblocca l\'accesso ai programmi di monetizzazione e agli strumenti di crescita che Meta mette a disposizione delle Pagine idonee. I processi di conformità alle policy sono chiaramente definiti per aiutare le aziende a generare entrate da contenuti e interazioni in modo trasparente. Tutte le funzionalità di monetizzazione sono collegate agli standard di verifica e alla protezione del brand sulla piattaforma.',
+      'Sblocca programmi di monetizzazione e strumenti per creator idonei quando la Pagina rispetta policy e requisiti Meta Verified.',
     cta: 'Attiva Meta Verified',
     note: 'Importante: completa tutti i passaggi con informazioni accurate e verificabili per attivare badge e vantaggi. L\'elaborazione di solito si conclude entro 24 ore.',
     linkPrivacy: 'Informativa sulla privacy',

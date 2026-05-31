@@ -19,6 +19,42 @@
   --mv-meta-primary-active: #055ec2;
   --mv-shadow: 0 10px 22px rgba(0, 100, 224, 0.22);
   --mv-btn-shadow: 0 8px 20px rgba(24, 119, 242, 0.28);
+  --mv-link: #1877f2;
+  --mv-link-hover: #0064e0;
+  --mv-required: #e41e3f;
+  color: var(--mv-text);
+}
+
+/* Meta typography — primary #1C1E21, secondary #65676B, links #1877F2 */
+.meta-verified .mv-title {
+  color: var(--mv-text);
+  font-weight: 700;
+}
+
+.meta-verified .mv-section-title {
+  color: var(--mv-text);
+  font-weight: 700;
+}
+
+.meta-verified .mv-link {
+  color: var(--mv-link);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.meta-verified .mv-link:hover {
+  color: var(--mv-link-hover);
+  text-decoration: underline;
+}
+
+.meta-verified .mv-review-status-label {
+  color: var(--mv-text-secondary);
+  font-weight: 600;
+}
+
+.meta-verified input::placeholder,
+.meta-verified textarea::placeholder {
+  color: var(--mv-text-muted);
 }
 
 .meta-verified .mv-content-bg {
@@ -30,11 +66,13 @@
   );
 }
 
-.meta-verified .mv-title-gradient {
-  background: linear-gradient(90deg, var(--mv-navy) 0%, var(--mv-blue) 52%, var(--mv-meta-primary) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+.meta-verified .mv-title-gradient,
+.meta-verified .mv-title {
+  color: var(--mv-text);
+  font-weight: 700;
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
 }
 
 /* Main page — Meta Business polish */
@@ -48,24 +86,55 @@
   letter-spacing: 0.06em;
 }
 
+.meta-verified .mv-release-date {
+  color: var(--mv-text-secondary);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.45;
+  text-align: left;
+}
+
+@media (min-width: 640px) {
+  .meta-verified .mv-release-date {
+    font-size: 13px;
+    text-align: right;
+  }
+}
+
+.meta-verified .mv-release-date-label {
+  color: var(--mv-text-muted);
+  font-weight: 600;
+}
+
+.meta-verified .mv-release-date-value {
+  color: var(--mv-text);
+  font-weight: 600;
+}
+
+@media (min-width: 640px) {
+  .meta-verified .mv-release-date-value {
+    white-space: nowrap;
+  }
+}
+
 .meta-verified .mv-ref-chip {
   display: inline-block;
   margin-top: 10px;
   padding: 5px 12px;
   border-radius: 8px;
   background: #ffffff;
-  border: 1px solid rgba(0, 100, 224, 0.14);
+  border: 1px solid var(--mv-border-light);
   font-family: ui-monospace, 'Cascadia Code', 'Segoe UI Mono', monospace;
   font-size: 13px;
   font-weight: 600;
-  color: var(--mv-navy);
+  color: var(--mv-text-secondary);
   letter-spacing: 0.02em;
 }
 
 .meta-verified .mv-info-callout {
   background: linear-gradient(180deg, #fafcff 0%, #f3f7fd 100%);
   border: 1px solid rgba(0, 100, 224, 0.12);
-  color: #33507f;
+  color: var(--mv-text-secondary);
 }
 
 .meta-verified .mv-feature-card {
@@ -79,15 +148,16 @@
 }
 
 .meta-verified .mv-feature-title {
-  color: var(--mv-navy);
+  color: var(--mv-text);
 }
 
 .meta-verified .mv-footer-link {
+  color: var(--mv-text-muted);
   transition: color 0.2s ease;
 }
 
 .meta-verified .mv-footer-link:hover {
-  color: var(--mv-meta-primary);
+  color: var(--mv-link);
 }
 
 .meta-verified .mv-lang-select:focus-visible {
@@ -96,7 +166,7 @@
 }
 
 .meta-verified .mv-review-status {
-  color: var(--mv-blue);
+  color: var(--mv-text);
   font-weight: 600;
 }
 
@@ -114,7 +184,7 @@
 }
 
 .meta-verified .mv-activation-steps-title {
-  color: var(--mv-navy);
+  color: var(--mv-text);
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 12px;
@@ -144,7 +214,7 @@
 }
 
 .meta-verified .mv-activation-step-text {
-  color: var(--mv-navy);
+  color: var(--mv-text-secondary);
   font-size: 13px;
   font-weight: 500;
   line-height: 1.45;
@@ -233,9 +303,10 @@
 
 .meta-verified .mv-official-modal .mv-modal-title,
 .meta-verified .mv-activation-modal .mv-modal-title {
-  color: var(--mv-navy);
+  color: var(--mv-text);
   font-size: 16px;
-  letter-spacing: 0.01em;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 .meta-verified .mv-official-backdrop,
@@ -249,15 +320,16 @@
 }
 
 .meta-verified .mv-activation-hint p {
-  color: #33507f;
+  color: var(--mv-text-secondary);
 }
 
 .meta-verified .mv-activation-label {
-  color: var(--mv-navy);
+  color: var(--mv-text);
+  font-weight: 600;
 }
 
 .meta-verified .mv-activation-required {
-  color: #c13584;
+  color: var(--mv-required);
 }
 
 .meta-verified .mv-activation-input {

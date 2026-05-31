@@ -10,6 +10,7 @@ export default {
       colors: {
         meta: {
           blue: '#0064E0',
+          link: '#1877F2',
           'blue-light': '#33B5FF',
           'blue-electric': '#00A3FF',
           navy: '#053D87',

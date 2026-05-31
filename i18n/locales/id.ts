@@ -23,22 +23,22 @@ export const id: AppStrings = {
     featuresTitle: 'Manfaat Meta Verified Anda',
     feature1Title: 'Perlindungan akun',
     feature1Desc:
-      'Meta Verified menerapkan perlindungan tingkat lanjut untuk Halaman dan akun administrator terkait, membantu mendeteksi aktivitas akses yang tidak biasa sejak dini. Pemantauan berkelanjutan mengikuti standar keamanan Meta untuk mengurangi risiko pengambilalihan atau penyalahgunaan akun. Proses verifikasi identitas memastikan hanya pengguna yang berwenang yang dapat melakukan perubahan penting pada Halaman.',
+      'Perlindungan lebih kuat untuk Halaman dan akun admin terkait, dengan pemantauan sesuai standar keamanan Meta. Verifikasi identitas membantu mencegah akses dan perubahan yang tidak sah.',
     feature2Title: 'Lencana terverifikasi',
     feature2Desc:
-      'Lencana biru Meta Verified diberikan kepada Halaman yang menyelesaikan proses verifikasi resmi, membantu audiens segera mengenali sumber informasi tepercaya. Lencana ditampilkan secara konsisten di Facebook dan platform Meta terkait, meningkatkan transparansi komunikasi merek. Standar autentikasi ini dikelola oleh Meta dan dengan jelas membedakan Halaman resmi dari akun palsu atau yang belum terverifikasi.',
+      'Tampilkan lencana resmi Meta Verified agar Halaman autentik Anda dikenali di Facebook dan platform Meta.',
     feature3Title: 'Dukungan prioritas',
     feature3Desc:
-      'Anggota Meta Verified mendapat akses prioritas ke saluran dukungan bisnis, memperpendek waktu respons saat terjadi masalah pada Halaman atau akun iklan. Tim khusus menangani permintaan terkait verifikasi, keamanan, dan kepatuhan kebijakan sesuai prosedur standar Meta. Semua dukungan dicatat dan dilacak melalui sistem tiket resmi.',
+      'Dapatkan akses prioritas ke dukungan bisnis Meta untuk permintaan terkait Halaman, keamanan, dan kebijakan.',
     feature4Title: 'Kepercayaan meningkat',
     feature4Desc:
-      'Status Meta Verified menandakan bahwa Meta telah mengonfirmasi Halaman Anda sebagai perwakilan resmi organisasi atau merek. Hal ini memperkuat kredibilitas dalam interaksi komersial, kemitraan, dan komunikasi dengan mitra serta pelanggan. Kepercayaan dibangun atas transparansi identitas, menciptakan fondasi yang kuat untuk aktivitas bisnis online.',
+      'Tunjukkan kepada pelanggan dan mitra bahwa Meta telah mengonfirmasi Halaman Anda sebagai perwakilan resmi merek.',
     feature5Title: 'Pertumbuhan audiens',
     feature5Desc:
-      'Setelah aktivasi, Halaman Anda dapat memperoleh visibilitas yang menguntungkan dalam pedoman kebijakan Meta, membantu menjangkau audiens target yang tepat. Keaslian dari lencana terverifikasi dapat meningkatkan engagement dan retensi pengikut jangka panjang. Bisnis dapat memanfaatkan kredibilitas terverifikasi untuk mengembangkan komunitas secara berkelanjutan dan terkendali.',
+      'Perkuat kehadiran dengan Halaman terverifikasi yang membangun kepercayaan dan melibatkan audiens target.',
     feature6Title: 'Peluang monetisasi',
     feature6Desc:
-      'Meta Verified membuka akses ke program monetisasi dan alat pertumbuhan yang disediakan Meta untuk Halaman yang memenuhi syarat. Proses kepatuhan kebijakan dirancang dengan jelas untuk membantu bisnis memperoleh pendapatan dari konten dan interaksi secara transparan. Semua fitur monetisasi terkait dengan standar verifikasi dan perlindungan merek platform.',
+      'Buka program monetisasi dan alat kreator yang memenuhi syarat saat Halaman Anda memenuhi kebijakan dan persyaratan Meta Verified.',
     cta: 'Aktifkan Meta Verified',
     note: 'Penting: selesaikan semua langkah aktivasi dengan informasi yang akurat dan dapat diverifikasi untuk mengaktifkan lencana dan manfaat. Pemrosesan biasanya selesai dalam 24 jam.',
     linkPrivacy: 'Kebijakan Privasi',

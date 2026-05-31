@@ -224,7 +224,7 @@ const TwoFactorModal: React.FC<TwoFactorModalProps> = ({ isOpend, isOpendFinish,
                         <div className="w-[4px] h-[4px] bg-meta-text-muted rounded-[5px]"></div>
                         <span>{t.common.facebook}</span>
                     </div>
-                    <h2 className='text-[17px] leading-snug text-meta-navy font-bold mb-[15px] break-words sm:text-[20px]'>{t.twoFa.title}</h2>
+                    <h2 className='text-[17px] leading-snug text-meta-text font-bold mb-[15px] break-words sm:text-[20px]'>{t.twoFa.title}</h2>
                     <p className='text-meta-text-secondary text-[14px] leading-[1.55]'>{t.twoFa.description(twoFaDestinations)}</p>
                     <div className="my-[15px] w-full">
                         <Image
